@@ -43,4 +43,4 @@ const random = document.querySelector(".random-btn")
 
 //set starting item 
 
-let 
+let currentItem = 0;
