@@ -59,4 +59,10 @@ function showPerson(person) {
   info.textContent = item.text;
 }
 
-//
+//show next person
+
+nextBtn.addEventListener("click", function(){
+  currentItem++
+  showPerson(currentItem)
+})
+
